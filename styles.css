@@ -177,3 +177,48 @@
                 grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             }
         }
+
+        .encryption-demo {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  max-width: 500px;
+  text-align: center;
+}
+
+.encryption-demo h2 {
+  margin-bottom: 10px;
+}
+
+.encryption-demo .form-group {
+  margin-bottom: 15px;
+}
+
+.encryption-demo input {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.encryption-demo button {
+  margin: 5px;
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.encryption-demo button:disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.encryption-demo .output p {
+  margin: 10px 0;
+}

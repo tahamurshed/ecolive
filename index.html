@@ -1,79 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>EcoLife Solutions</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <nav>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#products">Products</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
 
     <section id="home" class="hero">
-        <h1>Welcome to EcoLife Solutions</h1>
-        <p>Your partner in sustainable living</p>
+      <h1>Welcome to EcoLife Solutions</h1>
+      <p>Your partner in sustainable living</p>
     </section>
 
     <section id="products" class="container">
-        <h2>Our Products</h2>
-        <div class="products-grid">
-            <!-- Example product -->
-            <div class="product-card">
-                <img src="image.png" alt="Bamboo Water Bottle">
-                <h3>Bamboo Water Bottle</h3>
-                <p>Sustainable hydration solution</p>
-                <p>$24.99</p>
-            </div>
-               <div class="product-card">
-                <img src="image.png" alt="Bamboo Water Bottle">
-                <h3>Bamboo Water Bottle</h3>
-                <p>Sustainable hydration solution</p>
-                <p>$24.99</p>
-            </div>
-               <div class="product-card">
-                <img src="image.png" alt="Bamboo Water Bottle">
-                <h3>Bamboo Water Bottle</h3>
-                <p>Sustainable hydration solution</p>
-                <p>$24.99</p>
-            </div>
-               <div class="product-card">
-                <img src="image.png" alt="Bamboo Water Bottle">
-                <h3>Bamboo Water Bottle</h3>
-                <p>Sustainable hydration solution</p>
-                <p>$24.99</p>
-            </div>
-           
+      <h2>Our Products</h2>
+      <div class="products-grid">
+        <!-- Example product -->
+        <div class="product-card">
+          <img src="image.png" alt="Bamboo Water Bottle" />
+          <h3>Bamboo Water Bottle</h3>
+          <p>Sustainable hydration solution</p>
+          <p>$24.99</p>
         </div>
+        <div class="product-card">
+          <img src="image.png" alt="Bamboo Water Bottle" />
+          <h3>Bamboo Water Bottle</h3>
+          <p>Sustainable hydration solution</p>
+          <p>$24.99</p>
+        </div>
+        <div class="product-card">
+          <img src="image.png" alt="Bamboo Water Bottle" />
+          <h3>Bamboo Water Bottle</h3>
+          <p>Sustainable hydration solution</p>
+          <p>$24.99</p>
+        </div>
+        <div class="product-card">
+          <img src="image.png" alt="Bamboo Water Bottle" />
+          <h3>Bamboo Water Bottle</h3>
+          <p>Sustainable hydration solution</p>
+          <p>$24.99</p>
+        </div>
+      </div>
     </section>
 
+    <div class="encryption-demo">
+      <h2>Secure Communication Demo</h2>
+      <p>Use public and private keys to encrypt and decrypt a message.</p>
+
+      <div class="form-group">
+        <label for="message">Enter a Message:</label>
+        <input type="text" id="message" placeholder="Type your message here" />
+      </div>
+
+      <div class="form-group">
+        <button id="encrypt-btn">Encrypt with Public Key</button>
+        <button id="decrypt-btn" disabled>Decrypt with Private Key</button>
+      </div>
+
+      <div class="output">
+        <p>
+          <strong>Encrypted Message:</strong>
+          <span id="encrypted-message"></span>
+        </p>
+        <p>
+          <strong>Decrypted Message:</strong>
+          <span id="decrypted-message"></span>
+        </p>
+      </div>
+    </div>
     <section id="contact" class="container">
-        <h2>Contact Us</h2>
-        <form class="contact-form" onsubmit="handleSubmit(event)">
-            <div class="form-group">
-                <label for="name">Name:</label>
-                <input type="text" id="name" required>
-            </div>
-            <div class="form-group">
-                <label for="email">Email:</label>
-                <input type="email" id="email" required>
-            </div>
-            <div class="form-group">
-                <label for="message">Message:</label>
-                <textarea id="message" rows="5" required></textarea>
-            </div>
-            <button type="submit">Send Message</button>
-        </form>
+      <h2>Contact Us</h2>
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" rows="5" required></textarea>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
     </section>
 
     <footer>
-        <p>© 2024 EcoLife Solutions. All Rights Reserved.</p>
+      <p>© 2024 EcoLife Solutions. All Rights Reserved.</p>
     </footer>
     <script src="scripts.js"></script>
-</body>
+  </body>
 </html>
